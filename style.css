@@ -29,19 +29,26 @@ input[type="submit"]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
+  width: 70vw;
+  height: 70vh;
+  margin-top: 20px;
+  margin: auto;
+  padding: auto;
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
 }
 #fname {
-  width: 400px;
+  padding: auto;
+  width: 190px;
   padding: 10px 20px;
   border: 2px solid black;
   outline: none;
 }
 
 #lname {
-  width: 400px;
+  margin: auto;
+  padding: auto;
+  width: 190px;
   padding: 10px 20px;
   border: 2px solid black;
   outline: none;
