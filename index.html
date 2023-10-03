@@ -13,9 +13,20 @@
         <br />
         <input
           type="text"
-          id="fname"
+          id="details"
           name="firstname"
           placeholder="Your name.."
+        />
+        <br />
+        <br />
+
+        <label for="mname">Middle Name</label>
+        <br />
+        <input
+          type="text"
+          id="details"
+          name="middlename"
+          placeholder="Your Middle name.."
         />
         <br />
         <br />
@@ -24,18 +35,31 @@
         <br />
         <input
           type="text"
-          id="lname"
+          id="details"
           name="lastname"
           placeholder="Your last name.."
         />
         <br />
         <br />
+
+        <label for="gender">Gender</label>
+        <br />
+        <select id="country" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="prefer not to say">Prefer not to say</option>
+        </select>
+        <br>
+        <br>
+
         <label for="country">Country</label>
         <br />
         <select id="country" name="country">
+          <option value="india">India</option>
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
+          <option value="russia">Russia</option>
         </select>
         <br />
         <br />
@@ -44,7 +68,7 @@
         <textarea
           id="subject"
           name="subject"
-          placeholder="Write something.."
+          placeholder="Write something....."
           style="height: 200px"
         ></textarea>
 

@@ -24,7 +24,7 @@ input[type="submit"] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #007806;
 }
 
 /* Add a background color and some padding around the form */
@@ -33,16 +33,16 @@ input[type="submit"]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-#fname {
+
+#details{
   width: 400px;
   padding: 10px 20px;
   border: 2px solid black;
+  border-radius: 5px;
   outline: none;
 }
 
-#lname {
-  width: 400px;
-  padding: 10px 20px;
-  border: 2px solid black;
-  outline: none;
+label{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
 }
